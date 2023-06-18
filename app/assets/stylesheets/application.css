@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ 
+ *= require_tree .
+ *= require_self
+ */
+
+
+.Night, .Evening {
+    background-image: url(/assets/night.jpg);
+    width: 100%;
+    height: 901px;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    text-align: center;
+
+}
+.Night p, .Evening p {
+    color: white;
+    font-size: 19px;
+        margin-top: 104px;
+    position: absolute;
+}
+.heading {
+    font-size: 30px !important;
+}
+.time {
+    margin-top: 200px !important;
+}
+.Morning, .Afternoon {
+    background-image: url(/assets/day.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    width: 100%;
+    height: 901px;
+    text-align: center;
+
+
+}
+.Morning p , .Afternoon p{
+    color: black;
+    font-size: 19px;
+    margin-top: 104px;
+    position: absolute;
+}
