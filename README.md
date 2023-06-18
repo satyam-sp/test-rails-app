@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+use ruby version above 3.0.0
+
+rake db:create  //create database
+rake db:migrate // for migration
+rake db:seed   // seed entry 
+rails s  // run server 
